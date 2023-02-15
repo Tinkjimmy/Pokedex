@@ -8,9 +8,9 @@ let pokemonList =[{name:'Bulbasaur' ,height:0.7 ,types:['grass','poison']},
 for(let i = 0; i<5 ; i++){
     if( pokemonList[i].height > 0.9){
         // with this code, if the height is above 0.9 m it will write :"wow that's big"
-        document.write(pokemonList[i].name + " height : " + pokemonList[i].height + " m , wow that's big!")
+        document.write("<p>" + pokemonList[i].name + " height : " + pokemonList[i].height + " m , wow that's big! </p>")
     }else{
-        document.write ( pokemonList[i].name + " height : " + pokemonList[i].height + " m ");
+        document.write ("<p>" + pokemonList[i].name + " height : " + pokemonList[i].height + " m </p>");
         }
     }
 
