@@ -1,3 +1,16 @@
 body{
     background-color: aqua;
 }
+
+.pokeButton{
+    background-color: #4CAF50; /* Set the background color */
+  border: none; /* Remove border */
+  color: white; /* Set text color */
+  padding: 12px 24px; /* Set padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button a block element */
+  font-size: 16px; /* Set font size */
+  margin: 4px 2px; /* Add some margin */
+  cursor: pointer; /* Add a pointer on hover */
+}
