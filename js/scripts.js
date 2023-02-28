@@ -5,7 +5,7 @@ let pokemonRepository = (function(){
                         function getAll() {
                                       return pokemonList;
                                     }  
-                        function add(){
+                        function add(pokemon){
                               if (
                                 typeof pokemon === "object" &&
                                 "name" in pokemon
