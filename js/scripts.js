@@ -109,11 +109,13 @@ let pokemonRepository = (function(){
                           let contentElement = document.createElement("p");
                           contentElement.innerText = pokemon.height;
 
-                          
+                          let imgElement = document.createElement('img')
+                          imgElement.src = pokemon.imageUrl;
                       
                           modal.appendChild(closeButtonElement);
                           modal.appendChild(titleElement);
                           modal.appendChild(contentElement);
+                          modal.appendChild(imgElement);
                           modalContainer.appendChild(modal);
                       
                           modalContainer.classList.add("is-visible");
