@@ -55,15 +55,14 @@ let pokemonRepository = (function(){
                           listItem.classList.add('list-group-item');
                           let button = document.createElement("button");
                           button.innerText = pokemon.name;
-                          button.classList.add("pokeButton");
+                          button.classList.add('pokeButton');
                           button.classList.add('btn-block');
                           button.classList.add('btn-primary');
                           button.setAttribute('data-toggle', 'modal');
                           button.setAttribute('data-target', '#exampleModal');
-                          
+                          button.classList.add('col-4');
 
                           listItem.appendChild(button);
-                          
                           pokemonList.appendChild(listItem);
 
                           button.addEventListener("click", function () {
