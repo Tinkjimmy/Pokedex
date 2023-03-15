@@ -3,8 +3,7 @@ Pokedex
 
 
 
-![image](https://user-images.githubusercontent.com/109866915/225139977-a4112c5b-5310-4d2f-adab-41920610118d.png)
-
+![image](https://user-images.githubusercontent.com/109866915/225369475-7cbff373-9177-4a7b-8324-0ac2c4aa5063.png)
 
 
 
